@@ -1,0 +1,22 @@
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/965714601/health.git
+git push -u origin main
+
+/////////////////////////////////////
+
+1.在github上创建一个仓库
+
+2.在本地仓库输入	ssh-keygen -t rsa	生成密钥对
+（ 默认在/c/Users/周建伟/.ssh/id_rsa ） pub后缀为公钥（使用这个）
+
+3.在本地仓库输入
+git remote add origin https://github.com/965714601/health.git
+git branch -M main
+git push -u origin main
+
+///////////////////////////
+克隆远程仓库到本地
+git clone https://github.com/965714601/health.git
