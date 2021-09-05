@@ -1,4 +1,4 @@
-package com.itheima.health.pojo;
+package com.zjw.pojo;
 
 import java.io.Serializable;
 import java.util.List;
